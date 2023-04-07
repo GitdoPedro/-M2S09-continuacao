@@ -5,7 +5,7 @@ import jakarta.persistence.*; //* para importar todos
 @Entity(name = "categorias")
 public class Categoria {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //[M2S09] Ex 10
     private int id;
     private String nome;
 
