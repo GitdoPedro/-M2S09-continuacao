@@ -1,6 +1,6 @@
 package org.senai.devinhouse.philipssenai.models;
 
-import jakarta.persistence.*;
+import jakarta.persistence.*; //* para importar todos
 
 @Entity(name = "categorias")
 public class Categoria {

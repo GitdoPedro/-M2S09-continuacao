@@ -44,14 +44,4 @@ public class Cliente {
         this.dataNascimento = dataNascimento;
     }
 
-    public Produto getProduto() {
-        return produto;
-    }
-
-    public void setProduto(Produto produto) {
-        this.produto = produto;
-    }
-
-    @ManyToMany
-    private Produto produto;
 }
